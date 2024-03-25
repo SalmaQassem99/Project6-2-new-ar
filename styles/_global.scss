@@ -1,0 +1,29 @@
+%reset {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  direction: rtl;
+  @extend %reset;
+}
+body {
+  height: 100%;
+}
+* {
+  @extend %reset;
+  box-sizing: border-box;
+  user-select: none;
+  outline: none;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
